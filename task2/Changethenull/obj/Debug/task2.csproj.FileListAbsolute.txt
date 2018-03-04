@@ -1,0 +1,6 @@
+C:\Users\1\Documents\Visual Studio 2017\Projects\Massives\Changethenull\bin\Debug\Changethenull.exe.config
+C:\Users\1\Documents\Visual Studio 2017\Projects\Massives\Changethenull\bin\Debug\Changethenull.exe
+C:\Users\1\Documents\Visual Studio 2017\Projects\Massives\Changethenull\bin\Debug\Changethenull.pdb
+C:\Users\1\Documents\Visual Studio 2017\Projects\Massives\Changethenull\obj\Debug\task2.csprojResolveAssemblyReference.cache
+C:\Users\1\Documents\Visual Studio 2017\Projects\Massives\Changethenull\obj\Debug\Changethenull.exe
+C:\Users\1\Documents\Visual Studio 2017\Projects\Massives\Changethenull\obj\Debug\Changethenull.pdb
