@@ -10,27 +10,30 @@ namespace task2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите строку");
-            string textstring = Console.ReadLine();
-            char[] c = textstring.ToCharArray();
-            for (int i = 0; i < c.Length; i++)
-            {
 
-            }
-            Console.WriteLine("Введите вторую строку");
-            string textstring2 = Console.ReadLine();
-            char[] a = textstring2.ToCharArray();
-            for (int y=0; y<a.Length;y++)
-            {
+            string StringOne = "";
+            string Stringtwo = "";
+            string Result = "";
+            Console.WriteLine("Введи первую строку");
+            StringOne = Console.ReadLine();
+            Console.WriteLine("Введи вторую строку");
+            Stringtwo = Console.ReadLine();
+            foreach (char ch in StringOne)
+                if (!Stringtwo.Contains(ch))
+                    Result += ch;
+                else
+                {
+                    Result += ch;
+                    Result += ch;
+                }
+            Console.WriteLine("Результат = {0}", Result);
+            Console.ReadKey();
+        }
+       
+        
 
-            }
+
 
         }
-        static public Returnwords(string args)
-        {
-
-
-
-        }
-    }
 }
+
