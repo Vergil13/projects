@@ -38,12 +38,14 @@ namespace task1
                 }
                 set
                 {
+                   
                     secondname = value;
                 }
             }
             public string GetPatronymic
             {
                 get
+                    
                 {
                     return Patronymic;
                 }
@@ -58,6 +60,20 @@ namespace task1
                 }
 
                 
+            }
+            public void checkTheExceptionWhichIhate(string value,string name )
+            {
+                string pattern = "[A-Za-z]";
+                if (Regex.IsMatch(value, pattern))
+                {
+                    name = value;
+
+                }
+                else
+                {
+                    Console.WriteLine("Exception");
+                }
+                    
             }
 
             public DateTime GetBirthday
